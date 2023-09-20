@@ -12,6 +12,6 @@ Inicio
     numDepois <- numAtual + 1
 
     escreval("O numero que antesces de ", numAtual, " é: ", numAntes)
-    escreval("O numero que vem depois de ", numAtual, "é: ", numDepois)
+    escreval("O numero que vem depois de ", numAtual, " é: ", numDepois)
 
 Fimalgoritmo
