@@ -9,7 +9,7 @@ Inicio
         var
             ano2, mes2, dia2 : real
         inicio
-            ano2 <- ano + (mes/12)
+            ano2 <- ano + ((dia + mes*30)/365)
             mes2 <- (ano * 12) + mes
             dia2 <- (mes2 * 30)
 
@@ -21,9 +21,9 @@ Inicio
     escreval("Digite sua idade em 'anos + meses + dias' para saber quanto de cada um você já 'sobreviveu'")
     escreval("Anos: ")
     leia(ano1)
-    escreval("Meses: ")
+    escreval("Meses (menos de 12 meses): ")
     leia(mes1)
-    escreval("Dias: ")
+    escreval("Dias (menos de 30 dias): ")
     leia(dia1)
 
     idade(ano1, mes1, dia1)
