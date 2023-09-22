@@ -15,7 +15,7 @@ Inicio
             escreval("Digite sua 3a nota: ")
             leia(nota3)
 
-            mediaFinal <- ((nota1 * 2) + (nota2 * 3) + (nota3 * 3)) / 10
+            mediaFinal <- ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10
 
             escreval("A média do aluno é: ", retorne mediaFinal)
     fimFuncao
