@@ -17,9 +17,9 @@ Inicio
 
             mediaFinal <- ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10
 
-            escreval("A média do aluno é: ", retorne mediaFinal)
+            retorne mediaFinal
     fimFuncao
 
-    media()
+    escreval("A média do aluno é: ", media())
 
 Fimalgoritmo
