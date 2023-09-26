@@ -3,8 +3,7 @@ algoritmo "decimoTerceiroAlg"
 
 var
 
-    p, m : real
-    ex : inteiro
+    p, m, ex : real
 
 inicio
 
@@ -14,9 +13,11 @@ inicio
     se (p > 50) entao
         ex <- p - 50
         m <- ex * 4
+        escreval("")
         escreval("Valor da multa R$" , m, " pela quantidade ", ex, " excedente!")
     senao
-        escreval("Valor da multa R$" , m, " pela quantidade ", ex, " excedente!")
+        escreval("")
+        escreval("Valor da multa R$" , m, " pela quantidade ", ex, "Kg excedente!")
     fimSe
 
 fimalgoritmo
