@@ -1,76 +1,76 @@
 <mxfile host="65bd71144e">
     <diagram id="7sjyWyWOZ19dHDXE4U0I" name="Page-1">
-        <mxGraphModel dx="1631" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1105" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Questão 1)&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0.2px;&quot;&gt;1) João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar um multa de R$ 4,00 por quilo excedente. João precisa que você faça um fluxograma que leia a variável P (peso de peixes) e verifique se há&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0.2px;&quot;&gt;excesso. Se houver, gravar na variável E (Excesso) e na variável M o valor da multa Que João deverá pagar. Caso contrário mostrar tais variáveis com o conteúdo ZERO.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Questão 1)&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0.2px;&quot;&gt;1) João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar um multa de R$ 4,00 por quilo excedente. João precisa que você faça um fluxograma que leia a variável P (peso de peixes) e verifique se há&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0.2px;&quot;&gt;excesso. Se houver, gravar na variável E (Excesso) e na variável M o valor da multa Que João deverá pagar. Caso contrário mostrar tais variáveis com o conteúdo ZERO.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="10" y="10" width="820" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="3" target="4">
+                <mxCell id="19" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" source="3" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="INCIO" style="ellipse;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="1">
+                <mxCell id="3" value="INCIO" style="ellipse;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" parent="1" vertex="1">
                     <mxGeometry x="365" y="240" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=77.5;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;" edge="1" parent="1" source="4" target="6">
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=77.5;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;" parent="1" source="4" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="P, M: real&lt;br&gt;E : inteiro" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                <mxCell id="4" value="P, M, E : real" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" vertex="1">
                     <mxGeometry x="318" y="320" width="215" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="6" target="7">
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="6" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="&quot;Digie o PESO dos&lt;br&gt;peixes pescados: Kg&quot;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                <mxCell id="6" value="&quot;Digie o PESO dos&lt;br&gt;peixes pescados: Kg&quot;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="348" y="440" width="155" height="77.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="7" target="8">
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="7" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="P" style="shape=manualInput;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#0050ef;strokeColor=#001DBC;" vertex="1" parent="1">
+                <mxCell id="7" value="P" style="shape=manualInput;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" vertex="1">
                     <mxGeometry x="345" y="560" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="8" target="11">
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="8" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="8" target="12">
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="8" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="P &amp;gt; 50" style="rhombus;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#6a00ff;strokeColor=#3700CC;" vertex="1" parent="1">
+                <mxCell id="8" value="P &amp;gt; 50" style="rhombus;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" vertex="1">
                     <mxGeometry x="338" y="680" width="175" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="11" target="13">
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="11" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="NÃO" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="11" value="NÃO" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="170" y="705" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="12" target="16">
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="12" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="SIM" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="12" value="SIM" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="620" y="705" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="13" target="17">
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="13" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="E &amp;lt;- 0&lt;br&gt;M &amp;lt;- 0" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=#A50040;" vertex="1" parent="1">
+                <mxCell id="13" value="E &amp;lt;- 0&lt;br&gt;M &amp;lt;- 0" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=#A50040;" parent="1" vertex="1">
                     <mxGeometry x="140" y="800" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="FIM" style="ellipse;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="1">
+                <mxCell id="14" value="FIM" style="ellipse;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" parent="1" vertex="1">
                     <mxGeometry x="365" y="1040" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="16" target="17">
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="16" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="E &amp;lt;- P - 50&lt;br&gt;M &amp;lt;- E * 4&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=#A50040;" vertex="1" parent="1">
+                <mxCell id="16" value="E &amp;lt;- P - 50&lt;br&gt;M &amp;lt;- E * 4&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=#A50040;" parent="1" vertex="1">
                     <mxGeometry x="590" y="800" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="17" target="14">
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="17" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&quot;Valor da multa R$&quot; , M, &quot; pela quantidade &quot;, E, &quot; excedente!&quot;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                <mxCell id="17" value="&quot;Valor da multa R$&quot; , M, &quot; pela quantidade &quot;, E, &quot; excedente!&quot;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="345" y="960" width="160" height="40" as="geometry"/>
                 </mxCell>
             </root>
