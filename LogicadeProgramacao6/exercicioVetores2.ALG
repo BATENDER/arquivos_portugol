@@ -8,6 +8,7 @@ var
 
 inicio
 
+// FOR
     para i <- 1 ate 10 faca
         escreval("Digite o ", i, " número: ")
         leia(numVetor[i])
@@ -22,4 +23,18 @@ inicio
         escreva("[", numVetor[i], "] ")
     fimPara
 
-fimalgoritmo
+
+// WHILE
+//    i <- 1
+
+//    enquanto (i <= 10)
+//        escreval("Digite o ", i, " número: ")
+//        leia(numVetor[i])
+//        contador <- contador + 1
+//    fimEnquanto
+
+//    i <- 10
+
+//    enquanto (i >= 1)
+//        escreva("[", numVetor[i], "] ")
+//    fimEnquanto
