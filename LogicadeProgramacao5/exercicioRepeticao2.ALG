@@ -12,14 +12,29 @@ inicio
     leia(numUsuario)
     escreval("")
 
+// FOR
     para contador <- 1 ate numUsuario faca
-        escreval("Digite o ", contador, "º inteiro: ")
+        escreval("Digite o ", contador, "° inteiro: ")
         leia(num)
 
         se (numMaior < num) entao
             numMaior <- num
         fimSe
     fimPara
+
+    contador <- 1
+
+// WHILE
+//    enquanto (contador <= numUsuario)
+//        escreval("Digite o ", contador, "° inteiro: ")
+//        leia(num)
+
+//        se (numMaior < num) entao
+//            numMaior <- num
+//        fimSe
+
+//        contador <- contador + 1
+//    fimEnquanto
 
     escreval("")
     escreval("O maior número digitado foi: ", numMaior)
