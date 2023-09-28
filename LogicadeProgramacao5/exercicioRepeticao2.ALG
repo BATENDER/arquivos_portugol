@@ -36,6 +36,18 @@ inicio
 //        contador <- contador + 1
 //    fimEnquanto
 
+// DO UNTIL
+//    repita
+//        escreval("Digite o ", contador, "° inteiro: ")
+//        leia(num)
+
+//        se (numMaior < num) entao
+//            numMaior <- num
+//        fimSe
+
+//        contador <- contador + 1
+//    ate (contador > numUsuario)
+
     escreval("")
     escreval("O maior número digitado foi: ", numMaior)
 
