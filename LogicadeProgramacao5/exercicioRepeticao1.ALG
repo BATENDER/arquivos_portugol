@@ -18,7 +18,6 @@ inicio
     contador <- 1
 
 // WHILE
-
 //    enquanto (contador <= 10) faca
 
 //        escreval("Digite o ", contador, "° número")
