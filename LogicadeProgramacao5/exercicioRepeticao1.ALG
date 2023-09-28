@@ -9,7 +9,7 @@ var
 inicio
 
     para contador <- 1 ate 10 faca
-        escreval("Digite o ", contador, "º número: ")
+        escreval("Digite o ", contador, "° número: ")
         leia(num)
 
         numSoma <- numSoma + num
