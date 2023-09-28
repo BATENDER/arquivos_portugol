@@ -13,9 +13,33 @@ inicio
         leia(num)
 
         numSoma <- numSoma + num
-        
-        escreval("Soma: ", numSoma)
-        escreval("")
     fimPara
+
+    contador <- 1
+
+// WHILE
+
+//    enquanto (contador <= 10) faca
+
+//        escreval("Digite o ", contador, "° número")
+//        leia(num)
+
+//        numSoma <- numSoma + num
+
+//        contador <- contador + 1
+//    fimEnquanto
+
+// DO UNTIL
+//    repita
+//        escreval("Digite o ", contador, "° número")
+//        leia(num)
+
+//        numSoma <- numSoma + num
+
+//        contador <- contador + 1
+//    ate (contador >= 10)
+
+    escreval("Soma: ", numSoma)
+    escreval("")
 
 fimalgoritmo
