@@ -25,7 +25,7 @@ inicio
     contador <- 1
 
 // WHILE
-//    enquanto (contador <= numUsuario)
+//    enquanto (contador <= numUsuario) faca
 //        escreval("Digite o ", contador, "° inteiro: ")
 //        leia(num)
 
