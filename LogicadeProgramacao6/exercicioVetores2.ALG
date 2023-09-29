@@ -17,8 +17,15 @@ inicio
     escreval("")
     escreval("-----------------------------")
     escreval("")
-    escreva("Vetor na ordem inversa: ")
 
+    escreva("Vetor na ordem digitada: ")
+    para i <- 1 ate 10 faca
+        escreva("[", numVetor[i], "] ")
+    fimPara
+
+    escreval("")
+
+    escreva("Vetor na ordem inversa: ")
     para i <- 10 ate 1 faca
         escreva("[", numVetor[i], "] ")
     fimPara
@@ -31,6 +38,10 @@ inicio
 //        escreval("Digite o ", i, " número: ")
 //        leia(numVetor[i])
 //        contador <- contador + 1
+//    fimEnquanto
+
+//    enquanto (i <= 10)
+//        escreva("[", numVetor[i], "] ")
 //    fimEnquanto
 
 //    i <- 10
