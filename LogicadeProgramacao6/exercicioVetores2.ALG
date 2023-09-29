@@ -37,15 +37,17 @@ inicio
 //    enquanto (i <= 10)
 //        escreval("Digite o ", i, " número: ")
 //        leia(numVetor[i])
-//        contador <- contador + 1
+//        i <- i + 1
 //    fimEnquanto
 
 //    enquanto (i <= 10)
 //        escreva("[", numVetor[i], "] ")
+//        i <- i + 1
 //    fimEnquanto
 
 //    i <- 10
 
 //    enquanto (i >= 1)
 //        escreva("[", numVetor[i], "] ")
+//        i <- i - 1
 //    fimEnquanto
