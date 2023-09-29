@@ -1,7 +1,6 @@
 algoritmo "Nome do Programa"
 // 1) Uma loja está levantando o valor total 3 mercadorias em  estoque. Escreva um algoritmo que permita a entrada das seguintes informações:
 // a) o valor de cada mercadoria. Ao final imprimir o valor total em estoque e a média de valor de todas as mercadorias.
-
 // b)E AGORA ele também salvará os valores de cada mercadoria e seu nome!
 
 var
@@ -14,7 +13,22 @@ var
 
 inicio
 
+procedimento listarProdutos() inicio
+
+        escreval("--------------------------------------------")
+            escreval("-----------Lista de Produtos------------")
+        escreval("--------------------------------------------")
+    escreval("")
+
     para i <- 1 ate 3 faca
+        escreval(i, " - ", nomeMercadoria[i], " = R$", valorMercadoria[i])
+    fimPara
+
+fimProcedimento
+
+
+    para i <- 1 ate 3 faca
+
         escreval("Digite o nome da ", i, "ª mercadoria: ")
         leia(nomeMercadoria[i])
         escreval("Digite a quantidade da mercadoria: '", nomeMercadoria[i], "' : ")
@@ -22,6 +36,7 @@ inicio
         escreval("Digite o valor da mercadoria: '", nomeMercadoria[i], "' : R$")
         leia(valorMercadoria[i])
 
+        escreval("")
         escreval("O valor total em estoque da mercadoria '", nomeMercadoria[i], "' é de: R$", (qtdMercadoria[i] * valorMercadoria[i]))
 
         escreval("")
@@ -29,10 +44,13 @@ inicio
         escreval("")
 
         mediaAuxiliar <- mediaAuxiliar + (qtdMercadoria[i] * valorMercadoria[i])
+
     fimPara
 
     mediaValorMercadoria <- mediaAuxiliar / 3
 
     escreval("A média de preços das mercadorias é de: R$", mediaValorMercadoria)
+
+    listarProdutos()
 
 fimalgoritmo
