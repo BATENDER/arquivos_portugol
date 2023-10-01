@@ -4,34 +4,38 @@ algoritmo "Nome do Programa"
 
 var
 
-    i, j, maiorNum, menorNum, meioNum, auxNum1, auxNum2 : inteiro
-    vetorNum : vetor[1..3] de inteiro
+    i, j, auxNum : inteiro
+    lista : vetor[1..3] de inteiro
 
 inicio
 
     para i <- 1 ate 3 faca
+        escreval("Digite o ", i, "° número: ")
+        leia(lista[i])
+    fimpara
 
-        escreval("Digite o", i, "° numero: ")
-        leia(vetorNum[i])
+// Bubble Sort    
+    para j <- 1 ate 2 faca
+        para i <- 1 ate 2 faca
+            se (lista[i] > lista[i+1]) entao
+                auxNum <- lista[i]
+                lista[i] <- lista[i+1]
+                lista[i+1] <- auxNum
+            fimse
+        fimpara
+    fimpara
 
-    fimPara
-    
+// Escrever a Lista em ordem crescente e decrescente
+    escreval("")
+    escreva("Crescente: ")
     para i <- 1 ate 3 faca
+        escreva("[", lista[i], "] ")
+    fimpara
 
-        auxNum1 <- vetorNum[i]
-
-        para j <- 1 ate 3 faca
-            se (auxNum1 > vetorNum[j]) entao
-                auxNum2 <- vetorNum[j]
-                vetorNum[j] <- auxNum1
-                vetorNum[j-1] <- auxNum2
-            fimSe
-        fimPara
-
-    fimPara
-
-    para i <- 1 ate 3 faca
-        escreva("[", vetorNum[i], "] ")
-    fimPara
+    escreval("")
+    escreva("Decrescente: ")
+    para i <- 3 ate 1 passo -1 faca
+        escreva("[", lista[i], "] ")
+    fimpara
 
 fimalgoritmo
