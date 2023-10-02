@@ -15,8 +15,8 @@ inicio
     fimpara
 
 // Bubble Sort    
-    para j <- 1 ate 2 faca
-        para i <- 1 ate 2 faca
+    para i <- 1 ate 2 faca
+        para j <- 1 ate 2 faca
             se (lista[i] > lista[i+1]) entao
                 auxNum <- lista[i]
                 lista[i] <- lista[i+1]
